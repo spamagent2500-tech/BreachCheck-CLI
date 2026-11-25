@@ -1,0 +1,5 @@
+email,name,date,classes
+cybernova@northstar-labs.test,Northstar Cloud,2025-08-14,email|password|phone
+cybernova@northstar-labs.test,VectorPay,2024-02-19,email|financial
+cybernova@northstar-labs.test,Arcade Forge,2023-11-02,email|username
+other@lab.test,Other Demo,2024-01-10,email

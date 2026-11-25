@@ -1,0 +1,30 @@
+BreachCheck — Per-address exposure report
+================================================
+Address: cybernova@northstar-labs.test
+Checked: 2026-11-18T08:50:01.614107+00:00
+Sources: Offline mode, Local datasets
+
+Findings: 3
+
+1. Northstar Cloud [High]
+   Date: 2025-08-14
+   Data classes: email, password, phone
+   Sources: Local dataset
+   Why: A password or password hash was exposed.
+   Action: Change the password anywhere it was reused and enable MFA.
+
+2. VectorPay [High]
+   Date: 2024-02-19
+   Data classes: email, financial
+   Sources: Local dataset
+   Why: Financial data was exposed.
+   Action: Review statements, contact the provider, and monitor account activity.
+
+3. Arcade Forge [Low]
+   Date: 2023-11-02
+   Data classes: email, username
+   Sources: Local dataset
+   Why: Email or profile identifiers were exposed without higher-risk classes.
+   Action: Watch for phishing and use a unique password with MFA on the account.
+
+Lab-only: use only your own address or data you have written permission to check.

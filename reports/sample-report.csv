@@ -1,0 +1,4 @@
+address,name,date,classes,sources,severity,rationale,action
+cybernova@northstar-labs.test,Northstar Cloud,2025-08-14,email;password;phone,Local dataset,High,A password or password hash was exposed.,Change the password anywhere it was reused and enable MFA.
+cybernova@northstar-labs.test,VectorPay,2024-02-19,email;financial,Local dataset,High,Financial data was exposed.,"Review statements, contact the provider, and monitor account activity."
+cybernova@northstar-labs.test,Arcade Forge,2023-11-02,email;username,Local dataset,Low,Email or profile identifiers were exposed without higher-risk classes.,Watch for phishing and use a unique password with MFA on the account.

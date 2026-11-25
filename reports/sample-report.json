@@ -1,0 +1,62 @@
+{
+  "report_type": "BreachCheck per-address exposure report",
+  "disclaimer": "Lab-only output. Use only your own address or data you have written permission to check.",
+  "address": "cybernova@northstar-labs.test",
+  "checked_at": "2026-11-18T08:50:01.504788+00:00",
+  "sources": [
+    "Offline mode",
+    "Local datasets"
+  ],
+  "summary": {
+    "findings": 3,
+    "high": 2,
+    "medium": 0,
+    "low": 1
+  },
+  "findings": [
+    {
+      "name": "Northstar Cloud",
+      "date": "2025-08-14",
+      "classes": [
+        "email",
+        "password",
+        "phone"
+      ],
+      "sources": [
+        "Local dataset"
+      ],
+      "severity": "High",
+      "rationale": "A password or password hash was exposed.",
+      "action": "Change the password anywhere it was reused and enable MFA."
+    },
+    {
+      "name": "VectorPay",
+      "date": "2024-02-19",
+      "classes": [
+        "email",
+        "financial"
+      ],
+      "sources": [
+        "Local dataset"
+      ],
+      "severity": "High",
+      "rationale": "Financial data was exposed.",
+      "action": "Review statements, contact the provider, and monitor account activity."
+    },
+    {
+      "name": "Arcade Forge",
+      "date": "2023-11-02",
+      "classes": [
+        "email",
+        "username"
+      ],
+      "sources": [
+        "Local dataset"
+      ],
+      "severity": "Low",
+      "rationale": "Email or profile identifiers were exposed without higher-risk classes.",
+      "action": "Watch for phishing and use a unique password with MFA on the account."
+    }
+  ],
+  "errors": []
+}
